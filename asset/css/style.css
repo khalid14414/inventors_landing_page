@@ -55,7 +55,7 @@ body {
 a.nav-link {
     text-decoration: none;
     color: #8892b0;
-    font-weight: 500;
+    /* font-weight: 500; */
     padding: 0.5rem 0.5rem;
     border-radius: 4px;
     transition: all 0.3s ease;
@@ -163,6 +163,10 @@ a.nav-link:hover,
     max-width: 800px;
     text-align: left;
     animation: fadeInUp 1s ease-out;
+}
+
+.highlights{
+    color: #F08080;
 }
 
 .hero-title {
@@ -279,6 +283,12 @@ a.nav-link:hover,
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
+.highlight-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
 .highlight-icon {
     font-size: 2rem;
     color: #2ecc71;
@@ -363,7 +373,6 @@ a.nav-link:hover,
 
 
 /* About the innovator */
-/* Profile Section Styling */
 .innovator-profile {
     padding: 4rem 0;
     background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
@@ -459,6 +468,13 @@ a.nav-link:hover,
     margin-bottom: 2rem;
 }
 
+.mission-statement h3,.profile-credentials h3{
+    color: #4a5568;
+
+}
+
+
+
 .mission-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -540,7 +556,7 @@ a.nav-link:hover,
 .features-heading {
     text-align: center;
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color:  #4a5568;;
     margin-bottom: 1.5rem;
     line-height: 1.2;
 }
@@ -586,7 +602,7 @@ a.nav-link:hover,
 }
 
 .feature-box h4 {
-    color: var(--primary-color);
+    color:   #4a5568;;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
@@ -605,7 +621,7 @@ a.nav-link:hover,
 }
 
 .video-demo h2 {
-    color: var(--primary-color);
+    color: #4a5568;;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
