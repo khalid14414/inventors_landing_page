@@ -960,9 +960,6 @@
     font-size: 0.9rem;
 }
 
-
-
-
 /* Footer Styling */
 .footer {
     background: linear-gradient(rgba(46, 94, 78, 0.2), rgba(46, 94, 78, 0.9));
@@ -1095,7 +1092,6 @@
         padding: 1.5rem;
     }
 
-
     /* Features */
     .section-title {
         font-size: 2rem;
@@ -1118,10 +1114,6 @@
     .feature-card {
         padding: 1.5rem;
     }
-
-
-
-
     /* footer */
     .footer-grid {
         grid-template-columns: 1fr;
@@ -1174,6 +1166,10 @@
     
     .section-title {
         font-size: 1.8rem;
+    }
+    .innovator-image img {
+        width: 100%;
+        height: auto;
     }
 }
 
