@@ -16,16 +16,16 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <span class="logo-icon">💧</span>
-                <span class="logo-text">EA-SOLAR</span>
+                <span class="logo-texts">EA-SOLAR</span>
             </a>
 
             <ul class="nav-links" id="navLinks">
                 <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
                 <li class="nav-item"><a href="#Innovation" class="nav-link">Innovation</a></li>
-                <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="#Features" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="#Testimonial" class="nav-link">Testimonial</a></li>
                 <li class="nav-item"><a href="#Contact" class="nav-link cta">Contact</a></li>
             </ul>
@@ -39,59 +39,74 @@
     </nav>
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active" 
+                 style="background-image: linear-gradient(rgba(46, 94, 78, 0.6), rgba(46, 94, 78, 0.9)), url('https://www.ifpri.org/wp-content/uploads/2023/05/farmer-togo.jpeg')">
+            </div>
+            <div class="slide" 
+                 style="background-image: linear-gradient(rgba(46, 94, 78, 0.6), rgba(46, 94, 78, 0.9)), url('https://ecowhizz.co.za/wp-content/uploads/2023/08/Untitled-design-1-1.png')">
+            </div>
+            <div class="slide" 
+                 style="background-image: linear-gradient(rgba(46, 94, 78, 0.6), rgba(46, 94, 78, 0.9)), url('https://civileblog.com/wp-content/uploads/2015/08/Irrigation-in-India.jpg')">
+            </div>
+        </div>
+
+
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-title">Revolutionizing <span class="highlight">Agricultural</span> Irrigation</h1>
                 <p class="hero-subtitle">
                     Empowering farmers with eco-friendly water management systems
                 </p>
-                <a href="#innovation" class="hero-cta">
+                <a href="#video" class="hero-cta">
                     Explore Our Technology
                 </a>
             </div>
         </div>
+        <div class="slider-dots"></div>
     </section>
     <!-- About the Water Pump Section -->
     <section id="Innovation" class="innovation-section" aria-label="Water Pump Innovation">
         <div class="innovation-container">
             <div class="innovation-content">
                 <header class="innovation-header">
-                    <span class="section-subtitle">Sustainable Irrigation Technology</span>
-                    <h2 class="section-title">Revolutionizing Water Management</h2>
+                    <span class="section-subtitles">Sustainable Irrigation Technology</span>
+                    <h2 class="section-titles">Revolutionizing Water Management</h2>
                 </header>
 
                 <div class="innovation-details">
                     <div class="innovation-text">
-                        <p class="lead-text">Our eco-conscious irrigation system transforms agricultural practices
-                            through innovative engineering and sustainable material reuse.</p>
+                        <p class="lead-texts">Addressing the dual crises of water scarcity and inefficient irrigation, our solar-powered system redefines sustainable farming. Engineered with 85% repurposed materials and precision water distribution, we deliver a cost-effective solution that boosts yields while conserving vital resources.</p>
 
                         <div class="innovation-highlights">
                             <div class="highlight-card">
-                                <div class="highlight-icon" style="background-color: #FF6F611A;">
-                                    <i class="fas fa-recycle" style="color: #FF6F61;"></i>
+                                <div class="highlight-icon">
+                                    <i class="fas fa-recycle"></i>
                                 </div>
-                                <h3 style="color: #FF6F61;">Circular Economy Design</h3>
-                                <p>Constructed from 85% repurposed materials, reducing manufacturing waste by 40%
-                                    compared to conventional pumps</p>
+                                <div class="highlight-content">
+                                    <h3>Circular Economy Design</h3>
+                                    <p>Built from 85% reclaimed components, reducing manufacturing waste by 40% while maintaining industrial-grade durability</p>
+                                </div>
                             </div>
 
                             <div class="highlight-card">
-                                <div class="highlight-icon" style="background-color: #FF6F611A;">
-                                    <i class="fas fa-tint" style="color: #FF6F61;"></i>
+                                <div class="highlight-icon">
+                                    <i class="fas fa-tint"></i>
                                 </div>
-                                <h3 style="color: #FF6F61;">Precision Water Delivery</h3>
-                                <p>Patented flow control system distributes water with 92% efficiency, minimizing
-                                    resource waste</p>
+                                <div class="highlight-content">
+                                    <h3>Smart Water Optimization</h3>
+                                    <p>Proprietary flow technology achieves 92% distribution efficiency, eliminating runoff and over-watering</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="technical-specs">
-                            <h3>Key Features</h3>
+                            <h3>Performance Advantages</h3>
                             <ul class="spec-list">
-                                <li><strong style="color: #FF6F61;">25%</strong> Higher yield durability</li>
-                                <li><strong style="color: #FF6F61;">50W</strong> Solar-powered operation</li>
-                                <li><strong style="color: #FF6F61;">1,500L</strong> Daily capacity</li>
-                                <li><strong style="color: #FF6F61;">5-Year</strong> Warranty</li>
+                                <li><strong>25%</strong> Higher crop yields</li>
+                                <li><strong>50W</strong> Off-grid solar operation</li>
+                                <li><strong>1,500L</strong> Daily water capacity</li>
+                                <li><strong>Zero</strong> Fuel costs</li>
                             </ul>
                         </div>
                     </div>
@@ -99,14 +114,13 @@
                     <div class="innovation-visual">
                         <figure class="system-diagram">
                             <img src="./asset/images/usd.png" alt="Water pump system diagram" loading="lazy">
-                            <figcaption class="diagram-caption">Modular irrigation system components</figcaption>
                         </figure>
                         <div class="impact-stats">
-                            <div class="impact-card" style="background-color: #FFD700;">
+                            <div class="impact-card" style="background-color: var(--green-primary);">
                                 <span class="stat-value">650+</span>
                                 <span class="stat-label">Farms Empowered</span>
                             </div>
-                            <div class="impact-card" style="background-color: #FF6F61;">
+                            <div class="impact-card" style="background-color: var(--green-primary);">
                                 <span class="stat-value">40%</span>
                                 <span class="stat-label">Water Saved</span>
                             </div>
@@ -117,7 +131,7 @@
         </div>
     </section>
     <!-- Features Section -->
-    <section class="features-section">
+    <section id="Features" class="features-section">
         <div class="features-container">
             <!-- Main Section Header -->
             <div class="section-header">
@@ -166,7 +180,7 @@
             </div>
 
             <!-- How It Works Video Section -->
-            <div class="operation-section">
+            <div id="video" class="operation-section">
                 <div class="operation-header">
                     <h3 class="operation-title">System Demonstration</h3>
                     <p class="operation-subtitle">See our solution in action</p>
@@ -187,7 +201,7 @@
         </div>
     </section>
 
-    <section class="about-innovator">
+    <section id="About" class="about-innovator">
         <!-- Header Section -->
         <div class="section-header">
             <h2 class="section-subtitle">Meet the Innovator</h2>
@@ -198,7 +212,7 @@
         <div class="innovator-container">
             <!-- Image Container -->
             <div class="innovator-image">
-                <img src="./asset/images/image.png" alt="Amoah Victor - Irrigation Innovator">
+                <img src="./asset/images/WhatsApp Image 2025-03-09 at 18.04.24_ac578343.jpg" alt="Amoah Victor - Irrigation Innovator">
             </div>
 
             <!-- Text Content Container -->
@@ -262,6 +276,7 @@
                         "The modular design makes repairs easy even without technical expertise.
                         Our yields have increased by 40% since adopting this system."
                     </p>
+                    <div class="title-underlines"></div>
                     <div class="author-info">
                         <img src="./asset/images/usd.png" alt="Kofi Mensah" class="author-image">
                         <div class="author-details">
@@ -276,12 +291,13 @@
             <div class="testimonial-item">
                 <div class="testimonial-content">
                     <div class="quote-mark">
-                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-left" style="width: 0 auto;"></i>
                     </div>
                     <p class="testimonial-text">
                         "The solar-powered system has reduced our energy costs significantly.
                         Now we can irrigate day and night without worrying about fuel."
                     </p>
+                    <div class="title-underlines"></div>
                     <div class="author-info">
                         <img src="./asset/images/usd.png" alt="Ama Ansah" class="author-image">
                         <div class="author-details">
@@ -300,6 +316,7 @@
                         "The solar-powered system has reduced our energy costs significantly.
                         Now we can irrigate day and night without worrying about fuel."
                     </p>
+                    <div class="title-underlines"></div>
                     <div class="author-info">
                         <img src="./asset/images/usd.png" alt="Ama Ansah" class="author-image">
                         <div class="author-details">
@@ -356,7 +373,7 @@
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <h3>Email</h3>
-                                <p>contact@easolar.com</p>
+                                <p>exhibitamoah@gmail.com</p>
                             </div>
                         </div>
                         <div class="info-item">
@@ -371,25 +388,39 @@
             </div>
         </div>
     </section>
-
     <!-- Footer section -->
-    <footer class="footer">
-        <div class="container">
-            <p class="copyright">© 2025 The Innovator. All rights reserved.</p>
-            <div class="social-icons">
-                <a href="#" aria-label="Instagram" class="social-link">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" aria-label="Facebook" class="social-link">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="#" aria-label="LinkedIn" class="social-link">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="#" aria-label="Twitter" class="social-link">
-                    <i class="fab fa-twitter"></i>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Copyright Column -->
+            <div class="footer-column">
+                <p class="copyright">&copy; 2024 EA-SOLAR. All rights reserved</p>
+            </div>
+    
+            <!-- Logo Column -->
+            <div class="footer-column">
+                <a href="#" class="footer-logo">
+                    <span class="logo-icon">💧</span>
+                    <span class="logo-text">EA-SOLAR</span>
                 </a>
             </div>
+    
+            <!-- Socials Column -->
+            <div class="footer-column">
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <button class="back-to-top" aria-label="Back to top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
         </div>
     </footer>
     <script src="./asset/js/main.js"></script>
