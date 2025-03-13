@@ -298,7 +298,7 @@
 }
 
 .lead-texts{
-   text-align: justify;
+  
     line-height: 1.4;
     margin-top: 14px;
     color: var(--charcoal-text);
@@ -537,6 +537,11 @@
 .features-container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.features-description{
+    color: var(--charcoal-text);
+    font-size: 1.25rem;
 }
 
 /* Section Header */
@@ -1112,6 +1117,10 @@
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+
+    .logo-icon{
+        margin-left: 1.5rem;
+    }
 
     .hamburger{
         display: block;
