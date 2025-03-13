@@ -153,3 +153,4 @@ document.addEventListener('DOMContentLoaded', () => {
         interval = setInterval(nextSlide, 5000);
     });
 });
+
